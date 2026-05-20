@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment Confirmed — WebBuilt</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #080808;
+      --text: #efefef;
+      --green: #b8ff57;
+      --border: rgba(255,255,255,0.07);
+      --font: 'Inter', sans-serif;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+      text-align: center;
+    }
+    .ty-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--green);
+      border: 1px solid rgba(184,255,87,0.25);
+      padding: 6px 16px;
+      border-radius: 100px;
+      margin-bottom: 40px;
+    }
+    .ty-badge::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--green);
+      border-radius: 50%;
+      animation: pulse 1.8s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.7); }
+    }
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 5rem);
+      font-weight: 900;
+      letter-spacing: -2px;
+      line-height: 1;
+      margin-bottom: 24px;
+    }
+    h1 em {
+      font-style: italic;
+      color: var(--green);
+    }
+    p {
+      font-size: 16px;
+      color: rgba(255,255,255,0.5);
+      max-width: 460px;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    .ty-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--border);
+      margin: 40px auto;
+    }
+    .ty-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 400px;
+      text-align: left;
+      margin-bottom: 48px;
+    }
+    .ty-step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .ty-step-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 1px solid rgba(184,255,87,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--green);
+      flex-shrink: 0;
+    }
+    .ty-step-text {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.6;
+      padding-top: 4px;
+    }
+    .ty-step-text strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .ty-cta {
+      display: inline-block;
+      background: var(--green);
+      color: #0a0a0a;
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.3px;
+      padding: 14px 32px;
+      border-radius: 100px;
+      text-decoration: none;
+      transition: opacity .2s;
+    }
+    .ty-cta:hover { opacity: 0.85; }
+    .ty-logo {
+      position: absolute;
+      top: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .ty-logo span { font-style: italic; color: var(--green); }
+    .ty-footer {
+      position: absolute;
+      bottom: 32px;
+      font-size: 11px;
+      color: rgba(255,255,255,0.2);
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="ty-logo">Web<span>Built</span></a>
+
+  <div class="ty-badge">Payment confirmed</div>
+
+  <h1>Welcome<br>aboard, <em>let's<br>build.</em></h1>
+
+  <p>Your payment of <strong style="color:var(--text)">$700</strong> was received successfully.</p>
+  <p>Check your inbox — you'll receive a confirmation email within the next few minutes.</p>
+
+  <div class="ty-divider"></div>
+
+  <div class="ty-steps">
+    <div class="ty-step">
+      <div class="ty-step-num">1</div>
+      <div class="ty-step-text"><strong>Onboarding call</strong> — We'll reach out within 24 hours to schedule a kickoff call and gather your brand assets.</div>
+    </div>
+    <div class="ty-step">
+      <div class="ty-step-num">2</div>
+      <div class="ty-step-text"><strong>Design & build</strong> — Your custom website is built and reviewed together with you before going live.</div>
+    </div>
+    <div class="ty-step">
+      <div class="ty-step-num">3</div>
+      <div class="ty-step-text"><strong>Launch + SEO</strong> — We go live and activate your Google optimization so your business starts ranking.</div>
+    </div>
+  </div>
+
+  <a href="mailto:bladesvisiontech@gmail.com" class="ty-cta">Contact us directly</a>
+
+  <div class="ty-footer">Powered by <strong style="color:rgba(255,255,255,0.4)">BladesTech</strong></div>
+</body>
+</html>
