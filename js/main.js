@@ -437,7 +437,7 @@
       'work1-link':'View live site →','work1-visit':'Visit site ↗',
       'work2-desc':'Website design + SEO strategy for a retail brand. Custom design aligned with the brand identity, fully optimized for search from launch.',
       'work2-soon':'Coming soon',
-      'why-title':'Why businesses choose <em>WebBuilt</em>',
+      'why-title':'Why businesses choose <em>InMotion</em>',
       'why-body':'We\'re not an agency that disappears after launch. We build long-term partnerships — starting with your goals, executing with precision, and measuring results. Every dollar you invest in us is backed by data, not guesswork.',
       'why-stat1':'Flat price for full website + SEO — no surprises',
       'why-stat2':'Digital audit delivered within 48 hours guaranteed',
@@ -456,7 +456,7 @@
       'contact-title':'Ready to<br><em>grow?</em>',
       'contact-btn':'Claim your $700 website',
       'contact-secondary':'Request a free audit →',
-      'footer-copy':'© 2026 WebBuilt. All rights reserved. &nbsp;|&nbsp; <span style="color:#555">Client is responsible for their own domain &amp; hosting.</span>',
+      'footer-copy':'© 2026 InMotion. All rights reserved. &nbsp;|&nbsp; <span style="color:#555">Client is responsible for their own domain &amp; hosting.</span>',
       'footer-powered':'Powered by',
     },
     es: {
@@ -518,7 +518,7 @@
       'work1-link':'Ver sitio en vivo →','work1-visit':'Visitar sitio ↗',
       'work2-desc':'Diseño web + estrategia SEO para una marca de retail. Diseño personalizado alineado con la identidad de marca, totalmente optimizado para búsquedas desde el lanzamiento.',
       'work2-soon':'Próximamente',
-      'why-title':'Por qué los negocios eligen <em>WebBuilt</em>',
+      'why-title':'Por qué los negocios eligen <em>InMotion</em>',
       'why-body':'No somos una agencia que desaparece después del lanzamiento. Construimos asociaciones a largo plazo — comenzando con tus objetivos, ejecutando con precisión y midiendo resultados. Cada dólar que inviertes está respaldado por datos, no por suposiciones.',
       'why-stat1':'Precio fijo por web completa + SEO — sin sorpresas',
       'why-stat2':'Auditoría digital entregada en menos de 48 horas garantizado',
@@ -537,7 +537,7 @@
       'contact-title':'¿Listo para<br><em>crecer?</em>',
       'contact-btn':'Quiero mi web por $700',
       'contact-secondary':'Solicitar auditoría gratis →',
-      'footer-copy':'© 2026 WebBuilt. Todos los derechos reservados. &nbsp;|&nbsp; <span style="color:#555">El dominio y hosting son responsabilidad del cliente.</span>',
+      'footer-copy':'© 2026 InMotion. Todos los derechos reservados. &nbsp;|&nbsp; <span style="color:#555">El dominio y hosting son responsabilidad del cliente.</span>',
       'footer-powered':'Powered by',
     }
   };
