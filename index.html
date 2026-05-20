@@ -58,27 +58,35 @@
   <!-- ── HERO ── -->
   <section class="hero" id="hero">
     <canvas id="particleCanvas"></canvas>
-    <div class="hero-tag" id="heroTag" data-i18n="hero-tag">Marketing & Web Technology</div>
-    <div class="hero-scroll-hint" data-i18n="hero-scroll">Scroll</div>
 
     <div class="hero-float-tags">
-      <span class="float-tag" style="--x:72%;--y:22%;--delay:0s">SEO</span>
-      <span class="float-tag" style="--x:78%;--y:42%;--delay:1.4s">Web Design</span>
-      <span class="float-tag" style="--x:68%;--y:62%;--delay:0.7s">$700</span>
-      <span class="float-tag ft-accent" style="--x:76%;--y:78%;--delay:2s">Google #1</span>
+      <span class="float-tag" style="--x:8%;--y:28%;--delay:0s">SEO</span>
+      <span class="float-tag" style="--x:10%;--y:58%;--delay:1.4s">Web Design</span>
+      <span class="float-tag" style="--x:82%;--y:30%;--delay:0.7s">$700</span>
+      <span class="float-tag ft-accent" style="--x:80%;--y:60%;--delay:2s">Google #1</span>
     </div>
+
+    <div class="hero-badge" data-i18n="hero-tag">Marketing &amp; Web Technology</div>
 
     <h1 class="hero-headline" id="heroHeadline">
       <span class="h-line"><span class="h-line-inner" data-i18n="hero-h1">Your business</span></span>
       <span class="h-line"><span class="h-line-inner" data-i18n="hero-h2">deserves a website</span></span>
       <span class="h-line"><span class="h-line-inner" data-i18n-html="hero-h3">that <em>sells.</em></span></span>
     </h1>
-    <div class="hero-bottom" id="heroBottom">
-      <p class="hero-location" data-i18n-html="hero-location">Based in <strong>United States</strong> &mdash; Available worldwide</p>
-      <div class="hero-cta-group">
-        <a href="mailto:hello@inmotionteam.com" class="btn-primary" data-magnetic data-i18n="hero-cta-primary">Get your website for $700</a>
-        <a href="#works" class="btn-ghost" data-i18n="hero-cta-ghost">See our work ↓</a>
-      </div>
+
+    <p class="hero-sub" data-i18n="hero-sub">Professional websites + SEO for $700. We build digital assets that generate revenue — fast, mobile-first, and optimized for Google from day one.</p>
+
+    <div class="hero-cta-group">
+      <a href="mailto:hello@inmotionteam.com" class="btn-primary" data-magnetic data-i18n="hero-cta-primary">Get your website for $700</a>
+      <a href="#works" class="btn-ghost" data-i18n="hero-cta-ghost">See our work</a>
+    </div>
+
+    <div class="hero-meta">
+      <span data-i18n-html="hero-location">Based in <strong>United States</strong></span>
+      <span class="hero-meta-dot"></span>
+      <span>Available worldwide</span>
+      <span class="hero-meta-dot"></span>
+      <span>hello@inmotionteam.com</span>
     </div>
   </section>
 
@@ -104,6 +112,7 @@
   <section class="statement">
     <div class="statement-grid">
       <div class="section-label reveal" data-i18n="stmt-label">Who we are</div>
+
       <p class="statement-text reveal" data-delay="1" data-i18n-html="stmt-text">
         We help small and mid-size businesses turn their online presence into a <em>revenue engine</em> — with professional websites, aggressive SEO, and audits that show exactly where you're losing money.
       </p>
@@ -113,7 +122,7 @@
   <!-- ── MARKET STATS ── -->
   <section class="market" id="market">
     <div class="market-header">
-      <p class="market-eyebrow reveal" data-i18n="mkt-eyebrow">Market reality</p>
+      <div class="section-eyebrow reveal" data-i18n="mkt-eyebrow">Market reality</div>
       <h2 class="market-title reveal" data-delay="1" data-i18n-html="mkt-title">
         Your competitors are<br>already <em>online.</em>
       </h2>
@@ -167,9 +176,12 @@
 
   <!-- ── SERVICES ── -->
   <section class="services" id="services">
-    <div class="section-header">
-      <h2 class="section-title reveal" data-i18n-html="svc-title">What we <em>do</em></h2>
-      <span class="section-count reveal" data-delay="1" data-i18n="svc-count">03 services</span>
+    <div class="services-header">
+      <div>
+        <div class="section-eyebrow reveal" data-i18n="svc-eyebrow">What we do</div>
+        <h2 class="section-title reveal" data-delay="1" data-i18n-html="svc-title">Built to <em>perform</em></h2>
+      </div>
+      <span class="section-count reveal" data-delay="2" data-i18n="svc-count">03 services</span>
     </div>
     <div class="services-grid">
 
@@ -240,7 +252,7 @@
   <section class="pricing" id="pricing">
     <div class="pricing-inner">
       <div class="pricing-left">
-        <p class="pricing-eyebrow reveal" data-i18n="price-eyebrow">Transparent pricing</p>
+        <div class="section-eyebrow pricing-eyebrow reveal" data-i18n="price-eyebrow">Transparent pricing</div>
         <h2 class="pricing-headline reveal" data-delay="1" data-i18n-html="price-headline">
           One package.<br>Everything<br>you <em>need.</em>
         </h2>
@@ -314,9 +326,12 @@
   <!-- ── WORKS ── -->
   <section class="works" id="works">
     <canvas id="worksCanvas"></canvas>
-    <div class="section-header">
-      <h2 class="section-title reveal" data-i18n-html="works-title">Our <em>work</em></h2>
-      <span class="section-count reveal" data-delay="1" data-i18n="works-count">02 projects</span>
+    <div class="services-header">
+      <div>
+        <div class="section-eyebrow reveal">Selected work</div>
+        <h2 class="section-title reveal" data-delay="1" data-i18n-html="works-title">Our <em>work</em></h2>
+      </div>
+      <span class="section-count reveal" data-delay="2" data-i18n="works-count">02 projects</span>
     </div>
 
     <!-- Project 01 -->
@@ -420,8 +435,11 @@
 
   <!-- ── PROCESS ── -->
   <section class="process" id="process">
-    <div class="section-header">
-      <h2 class="section-title reveal" data-i18n-html="proc-title">How we <em>work</em></h2>
+    <div class="services-header" style="margin-bottom:64px">
+      <div>
+        <div class="section-eyebrow reveal">Our process</div>
+        <h2 class="section-title reveal" data-delay="1" data-i18n-html="proc-title">How we <em>work</em></h2>
+      </div>
     </div>
     <div class="process-steps">
 
@@ -454,7 +472,7 @@
 
   <!-- ── CONTACT ── -->
   <section class="contact" id="contact">
-    <p class="contact-eyebrow reveal" data-i18n="contact-eyebrow">Let's work together</p>
+    <div class="section-eyebrow contact-eyebrow reveal" data-i18n="contact-eyebrow">Let's work together</div>
     <h2 class="contact-headline reveal" data-delay="1" data-i18n-html="contact-title">
       Ready to<br><em>grow?</em>
     </h2>
