@@ -29,7 +29,7 @@ export default async function PricingPage({ params }: { params: Promise<{ locale
         <Container>
           <div className="text-center max-w-3xl mx-auto">
             <Eyebrow className="mb-6 justify-center">{t('pricing.eyebrow')}</Eyebrow>
-            <h1 className="text-4xl md:text-6xl font-semibold tracking-tight text-text-primary mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-text-primary mb-4">
               {t('pricing.h1')} <GradientText>{t('pricing.h1Gradient')}</GradientText>
             </h1>
             <p className="text-text-secondary text-xl">{t('pricing.sub')}</p>

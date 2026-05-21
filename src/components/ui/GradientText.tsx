@@ -4,14 +4,7 @@ type GradientTextProps = React.HTMLAttributes<HTMLSpanElement>
 
 function GradientText({ className, children, ...props }: GradientTextProps) {
   return (
-    <span
-      className={cn(
-        'bg-gradient-to-r from-accent via-brand-blue to-brand-purple',
-        'bg-clip-text text-transparent',
-        className
-      )}
-      {...props}
-    >
+    <span className={cn('text-accent', className)} {...props}>
       {children}
     </span>
   )

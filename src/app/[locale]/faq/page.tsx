@@ -31,7 +31,7 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: st
       <Container narrow>
         <div className="text-center mb-12">
           <Eyebrow className="mb-4 justify-center">{t('faq.eyebrow')}</Eyebrow>
-          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-text-primary mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-text-primary mb-4">
             {t('faq.h1')}
           </h1>
           <p className="text-text-secondary text-lg">{t('faq.sub')}</p>

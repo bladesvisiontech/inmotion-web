@@ -28,7 +28,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           {/* Left */}
           <div>
             <Eyebrow className="mb-6">{t('contact.eyebrow')}</Eyebrow>
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-text-primary mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-text-primary mb-4">
               {t('contact.h1')}
             </h1>
             <p className="text-text-secondary text-xl mb-12">{t('contact.sub')}</p>

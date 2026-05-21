@@ -35,7 +35,7 @@ function CTASection() {
 
       <Container>
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-6xl font-semibold tracking-tight text-text-primary mb-4">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-text-primary mb-4">
             {t('h2')}
           </h2>
           <p className="text-text-secondary text-xl mb-10">{t('sub')}</p>

@@ -19,7 +19,7 @@ function ProcessSection() {
       <Container>
         <div className="text-center mb-14">
           <Eyebrow className="mb-4 justify-center">{t('eyebrow')}</Eyebrow>
-          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-text-primary">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-text-primary">
             {t('h2')}
           </h2>
         </div>

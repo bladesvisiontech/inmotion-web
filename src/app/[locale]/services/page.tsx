@@ -30,7 +30,7 @@ export default async function ServicesHubPage({ params }: { params: Promise<{ lo
       <Container>
         <div className="text-center mb-14">
           <Eyebrow className="mb-4 justify-center">{t('services.hub.eyebrow')}</Eyebrow>
-          <h1 className="text-4xl md:text-6xl font-semibold tracking-tight text-text-primary mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-text-primary mb-4">
             {t('services.hub.h1')}
           </h1>
           <p className="text-text-secondary text-xl max-w-xl mx-auto">{t('services.hub.sub')}</p>

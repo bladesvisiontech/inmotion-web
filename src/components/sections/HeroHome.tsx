@@ -34,8 +34,9 @@ function HeroHome() {
         >
           <Eyebrow className="mb-6">{t('eyebrow')}</Eyebrow>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-text-primary leading-tight mb-6">
-            {t('h1Before')} <GradientText>{t('h1Gradient')}</GradientText>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-text-primary leading-tight mb-6">
+            <span className="block">{t('h1Before')}</span>
+            <GradientText className="block">{t('h1Gradient')}</GradientText>
           </h1>
 
           <p className="text-text-secondary text-lg md:text-xl leading-relaxed max-w-2xl mb-10">

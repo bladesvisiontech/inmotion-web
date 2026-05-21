@@ -104,13 +104,10 @@ function Footer() {
 
         {/* Brand statement */}
         <div className="border-t border-border pt-10 mb-8">
-          <p className="text-4xl md:text-6xl font-semibold text-text-primary tracking-tight leading-none">
+          <p className="text-6xl md:text-8xl lg:text-9xl font-bold text-text-primary tracking-tight leading-none">
             {t('footer.brand')}
-            <br />
-            <span className="text-text-tertiary text-2xl md:text-4xl font-normal">
-              {t('footer.brandSub')}
-            </span>
           </p>
+          <p className="text-text-secondary text-base mt-3">{t('footer.brandSub')}</p>
         </div>
 
         {/* Bottom bar */}

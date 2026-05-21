@@ -47,7 +47,7 @@ function PricingPreviewSection() {
       <Container>
         <div className="text-center mb-12">
           <Eyebrow className="mb-4 justify-center">{t('home.pricing.eyebrow')}</Eyebrow>
-          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-text-primary mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-text-primary mb-4">
             {t('home.pricing.h2')}
           </h2>
           <p className="text-text-secondary text-lg max-w-xl mx-auto">{t('home.pricing.sub')}</p>

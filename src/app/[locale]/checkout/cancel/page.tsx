@@ -33,7 +33,7 @@ export default async function CheckoutCancelPage({
           </div>
 
           <Eyebrow className="mb-4 justify-center">{t('checkout.cancel.eyebrow')}</Eyebrow>
-          <h1 className="text-3xl md:text-5xl font-semibold tracking-tight text-text-primary mb-4">
+          <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-text-primary mb-4">
             {t('checkout.cancel.h1')}
           </h1>
           <p className="text-text-secondary text-lg mb-8">{t('checkout.cancel.sub')}</p>

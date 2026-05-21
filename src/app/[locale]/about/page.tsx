@@ -36,7 +36,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <Container>
           <div className="max-w-3xl">
             <Eyebrow className="mb-6">{t('about.eyebrow')}</Eyebrow>
-            <h1 className="text-4xl md:text-6xl font-semibold tracking-tight text-text-primary mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-text-primary mb-6">
               {t('about.h1')} <GradientText>{t('about.h1Gradient')}</GradientText>
             </h1>
             <p className="text-text-secondary text-xl leading-relaxed">{t('about.sub')}</p>

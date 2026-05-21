@@ -51,7 +51,7 @@ function ServiceHero({ slug }: ServicePageProps) {
         >
           <Eyebrow className="mb-6">{t('eyebrow' as never) as string}</Eyebrow>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-text-primary leading-tight mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-text-primary leading-tight mb-6">
             {t('h1' as never) as string}{' '}
             <GradientText>{t('h1Gradient' as never) as string}</GradientText>{' '}
             {(t('h1After' as never) as string) && (
@@ -100,7 +100,7 @@ function ServiceIncludes({ slug }: ServicePageProps) {
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-text-primary mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-text-primary mb-8">
               {t('title' as never) as string}
             </h2>
             <FeatureList items={items} />
@@ -130,7 +130,7 @@ function ServiceProcess({ slug }: ServicePageProps) {
     <Section className="py-20 md:py-28">
       <Container>
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-text-primary mb-10 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-text-primary mb-10 text-center">
             {t('title' as never) as string}
           </h2>
           <NumberedList items={steps} />
@@ -154,7 +154,7 @@ function ServiceForWhom({ slug }: ServicePageProps) {
     <Section className="py-20 md:py-28 bg-bg-elevated/20">
       <Container>
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-text-primary mb-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-text-primary mb-8 text-center">
             {t('title' as never) as string}
           </h2>
           <ul className="space-y-4" role="list">
@@ -187,7 +187,7 @@ function ServiceNotIncludes({ slug }: ServicePageProps) {
     <Section className="py-20 md:py-28">
       <Container>
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-text-primary mb-3 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-text-primary mb-3 text-center">
             {t('title' as never) as string}
           </h2>
           <p className="text-text-tertiary text-sm text-center mb-8">
@@ -219,7 +219,7 @@ function ServicePricing({ slug }: ServicePageProps) {
     <Section glow glowPosition="center" className="py-20 md:py-28 bg-bg-elevated/10">
       <Container>
         <div className="max-w-xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-text-primary mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-text-primary mb-8">
             {t('title' as never) as string}
           </h2>
 
@@ -282,7 +282,7 @@ function ServiceFAQ({ slug }: ServicePageProps) {
   return (
     <Section className="py-20 md:py-28">
       <Container narrow>
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-text-primary mb-10 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-text-primary mb-10 text-center">
           Preguntas frecuentes
         </h2>
         <Accordion items={items} />
@@ -299,7 +299,7 @@ function ServiceCrossSell({ slug }: ServicePageProps) {
   return (
     <Section className="py-20 md:py-28 bg-bg-elevated/20">
       <Container>
-        <h2 className="text-2xl font-semibold tracking-tight text-text-primary mb-8 text-center">
+        <h2 className="text-2xl font-bold tracking-tight text-text-primary mb-8 text-center">
           Otros servicios
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

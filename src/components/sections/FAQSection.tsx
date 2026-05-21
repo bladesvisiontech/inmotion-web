@@ -22,7 +22,7 @@ function FAQSection() {
       <Container narrow>
         <div className="text-center mb-12">
           <Eyebrow className="mb-4 justify-center">{t('home.faq.eyebrow')}</Eyebrow>
-          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-text-primary">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-text-primary">
             {t('home.faq.h2')}
           </h2>
         </div>
