@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "siteName": "Inmotion",
+    "tagline": "Honest websites. Real growth.",
+    "homeTitle": "Websites that sell. Delivered in 3 days | Inmotion",
+    "homeDescription": "Digital agency for SMBs. Self-managed websites from $700 USD, real SEO from $500 USD. Fixed price, 3-day delivery, no hidden fees.",
+    "servicesTitle": "Digital marketing services | Inmotion",
+    "pricingTitle": "Transparent pricing, no fine print | Inmotion",
+    "aboutTitle": "About us | Inmotion",
+    "contactTitle": "Contact us | Inmotion",
+    "faqTitle": "Frequently asked questions | Inmotion"
+  },
+  "nav": {
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get started",
+    "toggleLang": "ES"
+  },
+  "footer": {
+    "brand": "Inmotion.",
+    "brandSub": "Honest websites. Real growth.",
+    "servicesLabel": "Services",
+    "companyLabel": "Company",
+    "legalLabel": "Legal",
+    "links": {
+      "website": "Website",
+      "seo": "SEO",
+      "consulting": "Consulting",
+      "ecommerce": "E-commerce",
+      "about": "About",
+      "contact": "Contact",
+      "pricing": "Pricing",
+      "faq": "FAQ",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "© {year} Inmotion. All rights reserved.",
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "digital agency for SMBs",
+      "h1Before": "Websites that sell.",
+      "h1Gradient": "Delivered in 3 days.",
+      "sub": "Self-managed websites, real SEO, and no-fluff consulting. Fixed prices, no surprise invoices.",
+      "ctaPrimary": "See plans & pricing",
+      "ctaSecondary": "Let's talk",
+      "trust1": "No hidden fees",
+      "trust2": "No subscriptions",
+      "trust3": "One-time payment via Stripe"
+    },
+    "social": {
+      "label": "Businesses that trust Inmotion"
+    },
+    "problem": {
+      "eyebrow": "the problem",
+      "h2": "Most agencies don't build for real SMBs.",
+      "sub": "Hidden fees, endless timelines, and sites that keep you dependent forever. That's not what your business needs.",
+      "card1Title": "Hidden fees",
+      "card1Body": "They quote $X and you end up paying $3X in add-ons, hosting, maintenance.",
+      "card2Title": "Eternal dependency",
+      "card2Body": "Every small change means a new invoice. Your website is never truly yours.",
+      "card3Title": "Endless timelines",
+      "card3Body": "What should take days ends up taking months. Meanwhile, your business isn't selling."
+    },
+    "services": {
+      "eyebrow": "our services",
+      "h2": "Four ways to take your business online.",
+      "viewDetails": "View details →"
+    },
+    "process": {
+      "eyebrow": "how we work",
+      "h2": "No endless meetings. No surprises.",
+      "step1": "Initial brief — 30 min, we define what you need.",
+      "step2": "Proposal & payment — Fixed price upfront. No extras.",
+      "step3": "Production — We build. You review. We iterate fast.",
+      "step4": "Delivery + handoff — We teach you to manage everything. It's yours forever."
+    },
+    "pricing": {
+      "eyebrow": "transparent pricing",
+      "h2": "What you see is what you pay.",
+      "sub": "No fine print. No surprise charges at the end of the month.",
+      "cta": "View full pricing table →"
+    },
+    "testimonials": {
+      "eyebrow": "what our clients say",
+      "h2": "Real results for real businesses.",
+      "disclaimer": "Representative examples"
+    },
+    "faq": {
+      "eyebrow": "faq",
+      "h2": "Total transparency.",
+      "viewAll": "View all questions →"
+    },
+    "cta": {
+      "h2": "Ready to have a website that sells?",
+      "sub": "3 days. One-time payment. Zero dependency.",
+      "button": "Buy website for $700 USD →",
+      "secondary": "Or schedule a free consultation"
+    }
+  },
+  "services": {
+    "hub": {
+      "eyebrow": "all services",
+      "h1": "What does your business need today?",
+      "sub": "Services built for SMBs. Fixed prices, fast delivery, zero dependency."
+    },
+    "website": {
+      "name": "Self-managed website",
+      "pitch": "Your website. Delivered in 3 days. Yours forever.",
+      "price": "700",
+      "priceLabel": "USD · one-time payment",
+      "hero": {
+        "eyebrow": "website",
+        "h1": "Your website.",
+        "h1Gradient": "Delivered in 3 days.",
+        "h1After": "Yours forever.",
+        "sub": "Professional design, self-managed, optimized to convert. One payment, no subscriptions, no dependency.",
+        "ctaBuy": "Buy for $700 USD →",
+        "ctaContact": "I have questions",
+        "trustPayment": "Secure payment via Stripe · Card · No subscriptions"
+      },
+      "includes": {
+        "title": "What's included?",
+        "items": [
+          "Custom design adapted to your brand",
+          "Up to 5 pages (Home, About, Services, Contact + 1 free)",
+          "Responsive — looks perfect on mobile, tablet and desktop",
+          "Functional contact form",
+          "Google Analytics integration",
+          "Basic SEO optimization (meta tags, speed, sitemap)",
+          "Admin panel — edit text and images without coding",
+          "Hosting configured and ready to publish",
+          "Domain connected (you buy the domain, we guide you)",
+          "1:1 30-min training so you can manage it yourself",
+          "1 revision round included"
+        ]
+      },
+      "process": {
+        "title": "How do we work?",
+        "step1": "Day 1 — Brief & design. You fill a brief form. We design the site.",
+        "step2": "Day 2 — Development. We build the site and put it in staging for your review.",
+        "step3": "Day 3 — Review & delivery. Apply changes, approve, publish. It's yours."
+      },
+      "forWhom": {
+        "title": "Who is this for?",
+        "items": [
+          "Businesses with no online presence or an outdated website",
+          "SMBs that want to sell online without depending on a developer",
+          "Entrepreneurs who need a professional site fast and at a fair price",
+          "Businesses that have overpaid before and don't want to repeat it"
+        ]
+      },
+      "notIncludes": {
+        "title": "What's NOT included?",
+        "items": [
+          "Domain purchase — we guide you, you pay it (~$12/year)",
+          "Hosting beyond the first year — then ~$10/month depending on your plan",
+          "Logo design — if you need one, we quote it separately ($150)",
+          "Content creation or professional photography",
+          "Additional pages beyond the 5 included",
+          "Online store / e-commerce (quote separately)"
+        ]
+      },
+      "pricing": {
+        "title": "Clear price, no fine print",
+        "price": "$700 USD",
+        "oneTime": "One-time payment",
+        "noHidden": "No hidden fees",
+        "noSubscription": "No subscriptions",
+        "guarantee": "What you see is what you pay"
+      },
+      "faq": {
+        "q1": "Really in 3 days?",
+        "a1": "Yes, as long as you deliver the content (text and images) on Day 1. If the brief is delayed, the timeline extends proportionally.",
+        "q2": "What if I don't like the design?",
+        "a2": "We include 1 revision round. Major changes outside the agreed scope are quoted separately.",
+        "q3": "Do I need to know how to code to edit it later?",
+        "a3": "No. The admin panel is visual — you change text and images like using Google Docs.",
+        "q4": "What platform do you use?",
+        "a4": "WordPress or Webflow depending on the case. In both, the site is 100% yours.",
+        "q5": "What happens after the first year of hosting?",
+        "a5": "We give you the credentials and you can contract hosting directly. We guide you. Estimated cost: $10-15/month."
+      }
+    },
+    "seo": {
+      "name": "SEO",
+      "pitch": "SEO that moves the needle. No smoke. No empty promises.",
+      "price": "500",
+      "priceLabel": "USD · one-time payment",
+      "hero": {
+        "eyebrow": "seo",
+        "h1": "SEO that moves the needle.",
+        "h1Gradient": "No smoke.",
+        "h1After": "No empty promises.",
+        "sub": "Real optimization for your website to rank on Google. One payment, measurable results, transparent reports.",
+        "ctaBuy": "Buy SEO for $500 USD →",
+        "ctaContact": "I have questions",
+        "trustPayment": "Secure payment via Stripe · Card · No subscriptions"
+      },
+      "includes": {
+        "title": "What's included?",
+        "items": [
+          "Full technical audit of your site",
+          "Keyword research for your industry",
+          "On-page optimization: meta tags, headings, URL structure",
+          "Page speed improvements (Core Web Vitals)",
+          "Google Business Profile creation/optimization",
+          "10 quality backlinks built",
+          "Monthly report with rankings, traffic and next steps",
+          "Access to real-time tracking dashboard"
+        ]
+      },
+      "process": {
+        "title": "How do we work?",
+        "step1": "Week 1 — Audit. We analyze your site, keywords and competition.",
+        "step2": "Week 2 — Technical optimization. We implement all on-page changes.",
+        "step3": "Week 3-4 — Content & links. We optimize existing content and build backlinks.",
+        "step4": "Delivery — Full report with results and continuity recommendations."
+      },
+      "forWhom": {
+        "title": "Who is this for?",
+        "items": [
+          "Businesses with a website that doesn't appear on Google",
+          "SMBs that want organic traffic without paying for ads forever",
+          "Entrepreneurs who've paid for SEO without seeing results",
+          "Online stores that want more visibility without more ad budget"
+        ]
+      },
+      "notIncludes": {
+        "title": "What's NOT included?",
+        "items": [
+          "New content creation (blog posts) — quote separately",
+          "Google Ads or Meta Ads management",
+          "Guarantee of #1 position on Google — nobody can honestly guarantee that",
+          "SEO for more than one website",
+          "Monthly maintenance (this is a one-time service — ask about monthly plan)"
+        ]
+      },
+      "pricing": {
+        "title": "Clear price, no fine print",
+        "price": "$500 USD",
+        "oneTime": "One-time payment",
+        "noHidden": "No hidden fees",
+        "noSubscription": "No subscriptions",
+        "guarantee": "Results report included"
+      },
+      "faq": {
+        "q1": "How long until I see results?",
+        "a1": "SEO takes time. First measurable results usually appear between 60 and 90 days. We provide a monthly report so you can track progress.",
+        "q2": "Can you guarantee #1 on Google?",
+        "a2": "No. Nobody can. Any agency that promises it is lying to you. What we guarantee is applying best practices and showing you progress with real data.",
+        "q3": "Do I need a website first?",
+        "a3": "Yes. SEO optimizes an existing site. If you don't have one, start with our Website service.",
+        "q4": "Is it a one-time or monthly payment?",
+        "a4": "One-time payment for this package. If you want ongoing monthly SEO maintenance, contact us for a quote.",
+        "q5": "What tools do you use?",
+        "a5": "Google Search Console, Ahrefs, SEMrush, Screaming Frog and Google Analytics. All industry-standard tools."
+      }
+    },
+    "consulting": {
+      "name": "Digital consulting",
+      "pitch": "Digital consulting focused on results. Not PowerPoints.",
+      "price": null,
+      "priceLabel": "Custom quote",
+      "hero": {
+        "eyebrow": "consulting",
+        "h1": "Digital consulting",
+        "h1Gradient": "focused on results.",
+        "h1After": "Not PowerPoints.",
+        "sub": "Personalized strategic sessions to grow your business online. No BS, no unnecessary jargon, with an actionable plan.",
+        "ctaContact": "Request free consultation →",
+        "trustPayment": "First exploratory session free"
+      }
+    },
+    "ecommerce": {
+      "name": "E-commerce",
+      "pitch": "Sell online without wrestling with technology.",
+      "price": null,
+      "priceLabel": "Custom quote",
+      "hero": {
+        "eyebrow": "e-commerce",
+        "h1": "Sell online",
+        "h1Gradient": "without wrestling",
+        "h1After": "with technology.",
+        "sub": "Complete online stores, integrated with local payment gateways, ready to sell from day one.",
+        "ctaContact": "Request proposal →",
+        "trustPayment": "No-commitment quote"
+      }
+    }
+  },
+  "pricing": {
+    "eyebrow": "pricing",
+    "h1": "Total transparency.",
+    "h1Gradient": "No fine print.",
+    "sub": "All our prices are fixed. What you see is what you pay.",
+    "columns": {
+      "service": "Service",
+      "price": "Price",
+      "delivery": "Timeline",
+      "includes": "What's included?",
+      "cta": "Action"
+    },
+    "oneTime": "One-time",
+    "quote": "Quote",
+    "days": "{n} days",
+    "ctaBuy": "Buy →",
+    "ctaContact": "Request →",
+    "note": "* All prices in USD. Payment methods: credit/debit card via Stripe.",
+    "website": {
+      "includes": "5 pages, custom design, responsive, admin panel, basic SEO, 1st year hosting"
+    },
+    "seo": {
+      "includes": "Audit, keywords, on-page, speed, Google Business, 10 backlinks, monthly report"
+    },
+    "consulting": {
+      "includes": "Digital diagnosis, strategic plan, 1:1 sessions"
+    },
+    "ecommerce": {
+      "includes": "Full store, payment gateway, inventory management, training"
+    }
+  },
+  "about": {
+    "eyebrow": "about us",
+    "h1": "We build for",
+    "h1Gradient": "real businesses.",
+    "sub": "We're a small team that's very good at what we do. Obsessed with transparency and results.",
+    "why": {
+      "title": "Why do we exist?",
+      "body": "We saw too many SMBs pay fortunes to agencies that delivered websites that didn't sell, full of fine print, with eternal maintenance contracts. We created Inmotion to do the opposite: visible prices, fast delivery, and sites that clients can manage themselves from day 1."
+    },
+    "values": {
+      "title": "Our values",
+      "v1Title": "Radical transparency",
+      "v1Body": "Visible prices, no hidden fees, no fine print. Always.",
+      "v2Title": "Speed with purpose",
+      "v2Body": "3-day delivery isn't marketing — it's our optimized process.",
+      "v3Title": "Client autonomy",
+      "v3Body": "Your site is 100% yours. You don't depend on us for anything."
+    },
+    "team": {
+      "title": "The team"
+    }
+  },
+  "contact": {
+    "eyebrow": "contact",
+    "h1": "Let's talk.",
+    "sub": "Tell us about your project. We respond in under 24 hours.",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "company": "Company (optional)",
+      "service": "Service of interest",
+      "servicePlaceholder": "How can we help you?",
+      "serviceOptions": {
+        "website": "Self-managed website",
+        "seo": "SEO",
+        "consulting": "Digital consulting",
+        "ecommerce": "E-commerce",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your business and what you need...",
+      "submit": "Send message →",
+      "submitting": "Sending...",
+      "success": "Message sent! We'll respond within 24 hours.",
+      "error": "There was an error sending. Try again or write to us at hello@inmotionteam.com"
+    },
+    "info": {
+      "email": "hello@inmotionteam.com",
+      "response": "Response in < 24 hours",
+      "hours": "Mon-Fri, 9am-6pm (GMT-5)"
+    }
+  },
+  "faq": {
+    "eyebrow": "faq",
+    "h1": "Frequently asked questions.",
+    "sub": "If you don't find your answer here, write to us.",
+    "global": {
+      "q1": "Do you really deliver in 3 days?",
+      "a1": "Yes, as long as we receive the complete brief and content on Day 1. If the client delays sending materials, the timeline extends proportionally. It's a collaborative process.",
+      "q2": "How does payment work?",
+      "a2": "Payment is 100% upfront through Stripe (credit/debit card). Once payment is confirmed, we start immediately. No partial payments or installments.",
+      "q3": "What if I'm not satisfied?",
+      "a3": "We include revisions within the agreed scope. If there are issues with the delivery, we resolve them. Transparency goes both ways.",
+      "q4": "Do I need technical knowledge?",
+      "a4": "No. Our sites are self-managed — you change text and images without coding. And if something breaks, we're available to help.",
+      "q5": "Do you only work with LATAM companies?",
+      "a5": "No. We work with businesses in any Spanish-speaking country and also in English. Payments are in USD via Stripe."
+    }
+  },
+  "checkout": {
+    "success": {
+      "eyebrow": "purchase confirmed!",
+      "h1": "Thank you for your purchase.",
+      "sub": "Within the next 24 hours you'll receive an email with the next steps.",
+      "steps": {
+        "title": "What's next?",
+        "s1": "Check your email — we sent you a confirmation with all the details",
+        "s2": "Our team contacts you within 24 hours for the initial brief",
+        "s3": "Day 1: You complete the brief and send us the content",
+        "s4": "Day 3: You receive your finished site ready to publish"
+      },
+      "cta": "Back to home"
+    },
+    "cancel": {
+      "eyebrow": "purchase cancelled",
+      "h1": "Your purchase was cancelled.",
+      "sub": "Don't worry — no charge was made.",
+      "help": "Have questions before buying?",
+      "ctaContact": "Let's talk →",
+      "ctaBack": "Back to home",
+      "faqTitle": "Common questions before buying"
+    }
+  },
+  "legal": {
+    "terms": {
+      "title": "Terms & Conditions",
+      "lastUpdated": "Last updated: {date}"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: {date}"
+    }
+  },
+  "common": {
+    "price": "${amount} USD",
+    "priceOneTime": "${amount} USD · one-time payment",
+    "quote": "Quote",
+    "learnMore": "Learn more →",
+    "contactUs": "Contact us",
+    "backHome": "← Back to home",
+    "disclaimer": "Representative examples"
+  }
+}

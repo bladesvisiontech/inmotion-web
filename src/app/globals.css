@@ -1,26 +1,99 @@
-@import "tailwindcss";
+@import '../styles/tokens.css';
+@import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Colors */
+  --color-bg: #0a0a0a;
+  --color-bg-elevated: #111111;
+  --color-bg-subtle: #161616;
+  --color-bg-inverse: #ffffff;
+
+  --color-border: #1f1f1f;
+  --color-border-strong: #2a2a2a;
+  --color-border-accent: #b4f838;
+
+  --color-text-primary: #fafafa;
+  --color-text-secondary: #a1a1a1;
+  --color-text-tertiary: #6b6b6b;
+  --color-text-inverse: #0a0a0a;
+
+  --color-accent: #b4f838;
+  --color-accent-hover: #c5ff50;
+  --color-accent-muted: #7a9f26;
+
+  --color-brand-purple: #a78bfa;
+  --color-brand-blue: #60a5fa;
+  --color-brand-pink: #f472b6;
+
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* Font families */
+  --font-sans: 'Geist', 'Inter', system-ui, sans-serif;
+  --font-mono: 'Geist Mono', 'JetBrains Mono', monospace;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 0 0 rgba(255, 255, 255, 0.03) inset, 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --shadow-glow: 0 0 60px 0 rgba(180, 248, 56, 0.25);
+  --shadow-glow-soft: 0 0 120px 0 rgba(180, 248, 56, 0.15);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus ring — green accent instead of browser default blue */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-tertiary);
 }

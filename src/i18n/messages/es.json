@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "siteName": "Inmotion",
+    "tagline": "Sitios honestos. Crecimiento real.",
+    "homeTitle": "Sitios web que venden. Entregados en 3 días | Inmotion",
+    "homeDescription": "Agencia digital para PYMEs. Sitios autoadministrables desde $700 USD, SEO real desde $500 USD. Precio fijo, entrega en 3 días, sin cobros ocultos.",
+    "servicesTitle": "Servicios de marketing digital | Inmotion",
+    "pricingTitle": "Precios transparentes sin letra chica | Inmotion",
+    "aboutTitle": "Quiénes somos | Inmotion",
+    "contactTitle": "Contáctanos | Inmotion",
+    "faqTitle": "Preguntas frecuentes | Inmotion"
+  },
+  "nav": {
+    "services": "Servicios",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "cta": "Comienza ahora",
+    "toggleLang": "EN"
+  },
+  "footer": {
+    "brand": "Inmotion.",
+    "brandSub": "Sitios honestos. Crecimiento real.",
+    "servicesLabel": "Servicios",
+    "companyLabel": "Empresa",
+    "legalLabel": "Legal",
+    "links": {
+      "website": "Sitio web",
+      "seo": "SEO",
+      "consulting": "Consultoría",
+      "ecommerce": "E-commerce",
+      "about": "Nosotros",
+      "contact": "Contacto",
+      "pricing": "Precios",
+      "faq": "FAQ",
+      "terms": "Términos y condiciones",
+      "privacy": "Política de privacidad"
+    },
+    "copyright": "© {year} Inmotion. Todos los derechos reservados.",
+    "social": {
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "agencia digital para PYMEs",
+      "h1Before": "Sitios web que venden.",
+      "h1Gradient": "Entregados en 3 días.",
+      "sub": "Sitios autoadministrables, SEO real, y consultoría sin humo. Precios fijos, sin sorpresas en la factura.",
+      "ctaPrimary": "Ver planes y precios",
+      "ctaSecondary": "Hablemos",
+      "trust1": "Sin cobros ocultos",
+      "trust2": "Sin mensualidades",
+      "trust3": "Pago único vía Stripe"
+    },
+    "social": {
+      "label": "Empresas que confían en Inmotion"
+    },
+    "problem": {
+      "eyebrow": "el problema",
+      "h2": "La mayoría de agencias no construyen para PYMEs reales.",
+      "sub": "Cobros ocultos, plazos eternos, y sitios que dependen de ellos para siempre. No es lo que necesita tu negocio.",
+      "card1Title": "Cobros ocultos",
+      "card1Body": "Te venden $X y terminas pagando $3X en complementos, hosting, mantenimiento.",
+      "card2Title": "Dependencia eterna",
+      "card2Body": "Cada cambio mínimo en el sitio se traduce en una factura nueva. Tu sitio nunca es realmente tuyo.",
+      "card3Title": "Plazos eternos",
+      "card3Body": "Lo que debería tomar días termina tomando meses. Mientras tanto, tu negocio no vende."
+    },
+    "services": {
+      "eyebrow": "nuestros servicios",
+      "h2": "Cuatro formas de llevar tu negocio online.",
+      "viewDetails": "Ver detalles →"
+    },
+    "process": {
+      "eyebrow": "cómo trabajamos",
+      "h2": "Sin reuniones eternas. Sin sorpresas.",
+      "step1": "Brief inicial — 30 min, definimos qué necesitas.",
+      "step2": "Propuesta y pago — Precio cerrado por adelantado. Sin extras.",
+      "step3": "Producción — Trabajamos. Tú revisas. Iteramos rápido.",
+      "step4": "Entrega + handoff — Te enseñamos a manejar todo. Es tuyo para siempre."
+    },
+    "pricing": {
+      "eyebrow": "precios transparentes",
+      "h2": "Lo que ves es lo que pagas.",
+      "sub": "Sin letra chica. Sin sorpresas al final del mes.",
+      "cta": "Ver tabla completa de precios →"
+    },
+    "testimonials": {
+      "eyebrow": "lo que dicen nuestros clientes",
+      "h2": "Resultados reales para negocios reales.",
+      "disclaimer": "Ejemplos representativos"
+    },
+    "faq": {
+      "eyebrow": "preguntas frecuentes",
+      "h2": "Transparencia total.",
+      "viewAll": "Ver todas las preguntas →"
+    },
+    "cta": {
+      "h2": "¿Listo para tener un sitio que venda?",
+      "sub": "3 días. Pago único. Cero dependencia.",
+      "button": "Comprar sitio por $700 USD →",
+      "secondary": "O agenda una consulta gratis"
+    }
+  },
+  "services": {
+    "hub": {
+      "eyebrow": "todos los servicios",
+      "h1": "¿Qué necesita tu negocio hoy?",
+      "sub": "Servicios pensados para PYMEs. Precios fijos, entregas rápidas, cero dependencia."
+    },
+    "website": {
+      "name": "Sitio web autoadministrable",
+      "pitch": "Tu sitio. Entregado en 3 días. Tuyo para siempre.",
+      "price": "700",
+      "priceLabel": "USD · pago único",
+      "hero": {
+        "eyebrow": "sitio web",
+        "h1": "Tu sitio web.",
+        "h1Gradient": "Entregado en 3 días.",
+        "h1After": "Tuyo para siempre.",
+        "sub": "Diseño profesional, autoadministrable, optimizado para convertir. Un pago, sin mensualidades, sin dependencia.",
+        "ctaBuy": "Comprar por $700 USD →",
+        "ctaContact": "Tengo preguntas",
+        "trustPayment": "Pago seguro vía Stripe · Tarjeta · Sin suscripciones"
+      },
+      "includes": {
+        "title": "¿Qué incluye?",
+        "items": [
+          "Diseño personalizado adaptado a tu marca",
+          "Hasta 5 páginas (Home, Nosotros, Servicios, Contacto + 1 libre)",
+          "Responsive — se ve perfecto en mobile, tablet y desktop",
+          "Formulario de contacto funcional",
+          "Integración con Google Analytics",
+          "Optimización SEO base (meta tags, velocidad, sitemap)",
+          "Panel de administración — edita textos e imágenes sin programar",
+          "Hosting configurado y listo para publicar",
+          "Dominio conectado (el dominio lo compras tú, te guiamos)",
+          "Capacitación 1:1 de 30 min para que lo manejes solo",
+          "1 ronda de revisiones incluida"
+        ]
+      },
+      "process": {
+        "title": "¿Cómo trabajamos?",
+        "step1": "Día 1 — Brief y diseño. Llenas un formulario de brief. Nosotros diseñamos el sitio.",
+        "step2": "Día 2 — Desarrollo. Construimos el sitio y lo dejamos en staging para tu revisión.",
+        "step3": "Día 3 — Revisión y entrega. Aplicas cambios, apruebas, publicamos. Es tuyo."
+      },
+      "forWhom": {
+        "title": "¿Para quién es?",
+        "items": [
+          "Negocios que no tienen presencia online o tienen un sitio desactualizado",
+          "PYMEs que quieren vender en internet sin depender de un programador",
+          "Emprendedores que necesitan un sitio profesional rápido y a precio justo",
+          "Negocios que han pagado demasiado antes y no quieren repetirlo"
+        ]
+      },
+      "notIncludes": {
+        "title": "¿Qué NO incluye?",
+        "items": [
+          "Compra del dominio — te ayudamos a comprarlo, lo pagas tú (~$12/año)",
+          "Hosting más allá del primer año — luego ~$10/mes según el plan que elijas",
+          "Diseño de logo — si necesitas uno, lo cotizamos aparte ($150)",
+          "Producción de contenido ni fotografía profesional",
+          "Páginas adicionales más allá de las 5 incluidas",
+          "Tienda online / e-commerce (cotizar aparte)"
+        ]
+      },
+      "pricing": {
+        "title": "Precio claro, sin letra chica",
+        "price": "$700 USD",
+        "oneTime": "Pago único",
+        "noHidden": "Sin cobros ocultos",
+        "noSubscription": "Sin mensualidades",
+        "guarantee": "Lo que ves es lo que pagas"
+      },
+      "faq": {
+        "q1": "¿Realmente en 3 días?",
+        "a1": "Sí, siempre que nos entregues el contenido (textos e imágenes) el primer día. Si el brief se retrasa, el plazo se extiende proporcionalmente.",
+        "q2": "¿Qué pasa si no me gusta el diseño?",
+        "a2": "Incluimos 1 ronda de revisiones. Si necesitas cambios mayores al diseño original acordado, los cotizamos por separado.",
+        "q3": "¿Necesito saber programar para editarlo después?",
+        "a3": "No. El panel de administración es visual — cambias textos e imágenes como si usaras Google Docs.",
+        "q4": "¿Qué plataforma usan?",
+        "a4": "Usamos WordPress o Webflow según el caso. En ambos casos el sitio es 100% tuyo y puedes cambiarte de proveedor cuando quieras.",
+        "q5": "¿Qué pasa después del primer año de hosting?",
+        "a5": "Te damos las credenciales y puedes contratar el hosting directamente. Te guiamos en el proceso. Costo estimado: $10-15/mes."
+      }
+    },
+    "seo": {
+      "name": "SEO",
+      "pitch": "SEO que mueve la aguja. Sin humo. Sin promesas vacías.",
+      "price": "500",
+      "priceLabel": "USD · pago único",
+      "hero": {
+        "eyebrow": "seo",
+        "h1": "SEO que mueve la aguja.",
+        "h1Gradient": "Sin humo.",
+        "h1After": "Sin promesas vacías.",
+        "sub": "Optimización real de tu sitio web para aparecer en Google. Un pago, resultados medibles, reportes transparentes.",
+        "ctaBuy": "Comprar SEO por $500 USD →",
+        "ctaContact": "Tengo preguntas",
+        "trustPayment": "Pago seguro vía Stripe · Tarjeta · Sin suscripciones"
+      },
+      "includes": {
+        "title": "¿Qué incluye?",
+        "items": [
+          "Auditoría técnica completa de tu sitio",
+          "Investigación de keywords (palabras clave) de tu industria",
+          "Optimización on-page: meta tags, headings, estructura de URLs",
+          "Mejoras de velocidad de carga (Core Web Vitals)",
+          "Creación / optimización de Google Business Profile",
+          "Construcción de 10 backlinks de calidad",
+          "Reporte mensual con posiciones, tráfico y próximos pasos",
+          "Acceso a dashboard de seguimiento en tiempo real"
+        ]
+      },
+      "process": {
+        "title": "¿Cómo trabajamos?",
+        "step1": "Semana 1 — Auditoría. Analizamos tu sitio, keywords y competencia.",
+        "step2": "Semana 2 — Optimización técnica. Implementamos todos los cambios on-page.",
+        "step3": "Semana 3-4 — Contenido y links. Optimizamos contenido existente y construimos backlinks.",
+        "step4": "Entrega — Reporte completo con resultados y recomendaciones de continuidad."
+      },
+      "forWhom": {
+        "title": "¿Para quién es?",
+        "items": [
+          "Negocios con sitio web que no aparecen en Google",
+          "PYMEs que quieren tráfico orgánico sin pagar publicidad para siempre",
+          "Emprendedores que han pagado SEO sin ver resultados",
+          "Tiendas online que quieren más visibilidad sin más presupuesto en ads"
+        ]
+      },
+      "notIncludes": {
+        "title": "¿Qué NO incluye?",
+        "items": [
+          "Creación de contenido nuevo (artículos de blog) — cotizar aparte",
+          "Gestión de Google Ads o Meta Ads",
+          "Garantía de posición #1 en Google — nadie puede garantizarla honestamente",
+          "SEO para más de un sitio web",
+          "Mantenimiento mensual (este es un servicio one-time — consultar plan mensual)"
+        ]
+      },
+      "pricing": {
+        "title": "Precio claro, sin letra chica",
+        "price": "$500 USD",
+        "oneTime": "Pago único",
+        "noHidden": "Sin cobros ocultos",
+        "noSubscription": "Sin mensualidades",
+        "guarantee": "Reporte de resultados incluido"
+      },
+      "faq": {
+        "q1": "¿Cuánto tiempo tarda en verse el resultado?",
+        "a1": "El SEO toma tiempo. Los primeros resultados medibles suelen verse entre 60 y 90 días. Te damos un reporte mensual para que veas el progreso.",
+        "q2": "¿Pueden garantizar el #1 en Google?",
+        "a2": "No. Nadie puede. Cualquier agencia que te lo prometa te está mintiendo. Lo que sí garantizamos es aplicar las mejores prácticas y mostrarte el progreso con datos reales.",
+        "q3": "¿Necesito tener un sitio web primero?",
+        "a3": "Sí. El SEO optimiza un sitio existente. Si no tienes sitio, empieza por nuestro servicio de Sitio Web.",
+        "q4": "¿Es un pago único o mensual?",
+        "a4": "Es un pago único por este paquete. Si quieres mantenimiento SEO mensual continuo, contáctanos para una cotización.",
+        "q5": "¿Qué herramientas usan?",
+        "a5": "Google Search Console, Ahrefs, SEMrush, Screaming Frog y Google Analytics. Todas las herramientas de la industria."
+      }
+    },
+    "consulting": {
+      "name": "Consultoría digital",
+      "pitch": "Consultoría digital con foco en resultados. No PowerPoints.",
+      "price": null,
+      "priceLabel": "Cotización personalizada",
+      "hero": {
+        "eyebrow": "consultoría",
+        "h1": "Consultoría digital",
+        "h1Gradient": "con foco en resultados.",
+        "h1After": "No PowerPoints.",
+        "sub": "Sesiones estratégicas personalizadas para que tu negocio crezca online. Sin bullshit, sin jerga innecesaria, con un plan accionable.",
+        "ctaContact": "Solicitar consulta gratis →",
+        "trustPayment": "Primera sesión exploratoria sin costo"
+      }
+    },
+    "ecommerce": {
+      "name": "E-commerce",
+      "pitch": "Vende online sin pelearte con la tecnología.",
+      "price": null,
+      "priceLabel": "Cotización personalizada",
+      "hero": {
+        "eyebrow": "e-commerce",
+        "h1": "Vende online",
+        "h1Gradient": "sin pelearte",
+        "h1After": "con la tecnología.",
+        "sub": "Tiendas online completas, integradas con pasarelas de pago locales, listas para vender desde el primer día.",
+        "ctaContact": "Solicitar propuesta →",
+        "trustPayment": "Cotización sin compromiso"
+      }
+    }
+  },
+  "pricing": {
+    "eyebrow": "precios",
+    "h1": "Transparencia total.",
+    "h1Gradient": "Sin letra chica.",
+    "sub": "Todos nuestros precios son fijos. Lo que ves es lo que pagas.",
+    "columns": {
+      "service": "Servicio",
+      "price": "Precio",
+      "delivery": "Plazo",
+      "includes": "¿Qué incluye?",
+      "cta": "Acción"
+    },
+    "oneTime": "Pago único",
+    "quote": "Cotización",
+    "days": "{n} días",
+    "ctaBuy": "Comprar →",
+    "ctaContact": "Solicitar →",
+    "note": "* Todos los precios en USD. Métodos de pago: tarjeta de crédito/débito via Stripe.",
+    "website": {
+      "includes": "5 páginas, diseño personalizado, responsive, admin panel, SEO base, hosting 1er año"
+    },
+    "seo": {
+      "includes": "Auditoría, keywords, on-page, velocidad, Google Business, 10 backlinks, reporte mensual"
+    },
+    "consulting": {
+      "includes": "Diagnóstico digital, plan estratégico, sesiones 1:1"
+    },
+    "ecommerce": {
+      "includes": "Tienda completa, pasarela de pago, gestión de inventario, capacitación"
+    }
+  },
+  "about": {
+    "eyebrow": "nosotros",
+    "h1": "Construimos para",
+    "h1Gradient": "negocios reales.",
+    "sub": "Somos un equipo pequeño y muy bueno en lo que hace. Obsesionados con la transparencia y los resultados.",
+    "why": {
+      "title": "¿Por qué existimos?",
+      "body": "Vimos demasiadas PYMEs pagar fortunas a agencias que les entregaban sitios que no vendían, llenos de letra chica, con contratos de mantenimiento eternos. Creamos Inmotion para hacer lo opuesto: precios visibles, entregas rápidas, y sitios que el cliente pueda administrar solo desde el día 1."
+    },
+    "values": {
+      "title": "Nuestros valores",
+      "v1Title": "Transparencia radical",
+      "v1Body": "Precios visibles, sin cobros ocultos, sin letra chica. Siempre.",
+      "v2Title": "Velocidad con propósito",
+      "v2Body": "3 días de entrega no es marketing — es nuestro proceso optimizado.",
+      "v3Title": "Autonomía del cliente",
+      "v3Body": "Tu sitio es 100% tuyo. No dependes de nosotros para nada."
+    },
+    "team": {
+      "title": "El equipo"
+    }
+  },
+  "contact": {
+    "eyebrow": "contacto",
+    "h1": "Hablemos.",
+    "sub": "Cuéntanos sobre tu proyecto. Respondemos en menos de 24 horas.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Email",
+      "company": "Empresa (opcional)",
+      "service": "Servicio de interés",
+      "servicePlaceholder": "¿En qué podemos ayudarte?",
+      "serviceOptions": {
+        "website": "Sitio web autoadministrable",
+        "seo": "SEO",
+        "consulting": "Consultoría digital",
+        "ecommerce": "E-commerce",
+        "other": "Otro"
+      },
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu negocio y qué necesitas...",
+      "submit": "Enviar mensaje →",
+      "submitting": "Enviando...",
+      "success": "¡Mensaje enviado! Te respondemos en menos de 24 horas.",
+      "error": "Hubo un error al enviar. Intenta de nuevo o escríbenos a hello@inmotionteam.com"
+    },
+    "info": {
+      "email": "hello@inmotionteam.com",
+      "response": "Respuesta en < 24 horas",
+      "hours": "Lun-Vie, 9am-6pm (GMT-5)"
+    }
+  },
+  "faq": {
+    "eyebrow": "faq",
+    "h1": "Preguntas frecuentes.",
+    "sub": "Si no encuentras tu respuesta aquí, escríbenos.",
+    "global": {
+      "q1": "¿Realmente entregan en 3 días?",
+      "a1": "Sí, siempre que recibamos el brief y contenido completo el Día 1. Si el cliente demora en enviarnos materiales, el plazo se extiende proporcionalmente. Es un proceso colaborativo.",
+      "q2": "¿Cómo funciona el pago?",
+      "a2": "El pago es 100% por adelantado a través de Stripe (tarjeta de crédito/débito). Una vez confirmado el pago, arrancamos inmediatamente. No hay pagos parciales ni cuotas.",
+      "q3": "¿Qué pasa si no quedo satisfecho?",
+      "a3": "Incluimos revisiones dentro del alcance acordado. Si hay problemas con la entrega, los resolvemos. La transparencia va en ambas direcciones.",
+      "q4": "¿Necesito conocimientos técnicos?",
+      "a4": "No. Nuestros sitios son autoadministrables — cambias textos e imágenes sin programar. Y si algo se rompe, estamos disponibles para ayudarte.",
+      "q5": "¿Trabajan solo con empresas de LATAM?",
+      "a5": "No. Trabajamos con negocios en cualquier país hispanohablante y también en inglés. Los pagos son en USD vía Stripe."
+    }
+  },
+  "checkout": {
+    "success": {
+      "eyebrow": "¡compra confirmada!",
+      "h1": "Gracias por tu compra.",
+      "sub": "En las próximas 24 horas recibirás un email con los siguientes pasos.",
+      "steps": {
+        "title": "¿Qué sigue?",
+        "s1": "Revisa tu email — te enviamos una confirmación con todos los detalles",
+        "s2": "Nuestro equipo te contacta dentro de 24 horas para el brief inicial",
+        "s3": "Día 1: Completas el brief y nos envías el contenido",
+        "s4": "Día 3: Recibes tu sitio terminado y listo para publicar"
+      },
+      "cta": "Volver al inicio"
+    },
+    "cancel": {
+      "eyebrow": "compra cancelada",
+      "h1": "Tu compra fue cancelada.",
+      "sub": "No te preocupes — no se realizó ningún cargo.",
+      "help": "¿Tienes dudas antes de comprar?",
+      "ctaContact": "Hablemos →",
+      "ctaBack": "Volver al inicio",
+      "faqTitle": "Preguntas comunes antes de comprar"
+    }
+  },
+  "legal": {
+    "terms": {
+      "title": "Términos y Condiciones",
+      "lastUpdated": "Última actualización: {date}"
+    },
+    "privacy": {
+      "title": "Política de Privacidad",
+      "lastUpdated": "Última actualización: {date}"
+    }
+  },
+  "common": {
+    "price": "${amount} USD",
+    "priceOneTime": "${amount} USD · pago único",
+    "quote": "Cotización",
+    "learnMore": "Ver más →",
+    "contactUs": "Contáctanos",
+    "backHome": "← Volver al inicio",
+    "disclaimer": "Ejemplos representativos"
+  }
+}
