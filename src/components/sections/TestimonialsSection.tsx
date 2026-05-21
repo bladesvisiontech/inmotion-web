@@ -12,11 +12,11 @@ function TestimonialsSection() {
   const t = useTranslations('home.testimonials')
 
   return (
-    <Section className="py-20 md:py-32 bg-bg-elevated/20">
+    <Section className="py-24 md:py-40 bg-bg-elevated/20">
       <Container>
         <div className="text-center mb-14">
           <Eyebrow className="mb-4 justify-center">{t('eyebrow')}</Eyebrow>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-text-primary mb-2">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-text-primary mb-2">
             {t('h2')}
           </h2>
           <p className="text-text-tertiary text-xs uppercase tracking-wider mt-3">

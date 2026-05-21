@@ -21,11 +21,11 @@ function ServicesGrid() {
   const isInView = useInView(ref, { once: true, margin: '-80px' })
 
   return (
-    <Section className="py-20 md:py-32 bg-bg-elevated/30">
+    <Section className="py-24 md:py-40 bg-bg-elevated/30">
       <Container>
         <div className="text-center mb-14">
           <Eyebrow className="mb-4 justify-center">{t('home.services.eyebrow')}</Eyebrow>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-text-primary max-w-2xl mx-auto">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-text-primary max-w-2xl mx-auto">
             {t('home.services.h2')}
           </h2>
         </div>

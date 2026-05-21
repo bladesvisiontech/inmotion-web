@@ -14,7 +14,7 @@ function HeroHome() {
   const locale = useLocale()
 
   return (
-    <section className="relative pt-20 pb-24 md:pt-32 md:pb-40 overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center pt-24 pb-32 overflow-hidden">
       {/* Ambient glow */}
       <div
         aria-hidden
@@ -34,12 +34,12 @@ function HeroHome() {
         >
           <Eyebrow className="mb-6">{t('eyebrow')}</Eyebrow>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-text-primary leading-tight mb-6">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-text-primary leading-[1.05] mb-8">
             <span className="block">{t('h1Before')}</span>
             <GradientText className="block">{t('h1Gradient')}</GradientText>
           </h1>
 
-          <p className="text-text-secondary text-lg md:text-xl leading-relaxed max-w-2xl mb-10">
+          <p className="text-text-secondary text-lg md:text-xl leading-relaxed max-w-2xl mb-12">
             {t('sub')}
           </p>
 

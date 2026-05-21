@@ -15,11 +15,11 @@ function ProcessSection() {
   const steps = [t('step1'), t('step2'), t('step3'), t('step4')]
 
   return (
-    <Section className="py-20 md:py-32">
+    <Section className="py-24 md:py-40">
       <Container>
         <div className="text-center mb-14">
           <Eyebrow className="mb-4 justify-center">{t('eyebrow')}</Eyebrow>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-text-primary">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tight text-text-primary">
             {t('h2')}
           </h2>
         </div>

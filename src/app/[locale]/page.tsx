@@ -43,7 +43,7 @@ function PricingPreviewSection() {
   const locale = useLocale()
 
   return (
-    <Section className="py-20 md:py-32 bg-bg-elevated/20">
+    <Section className="py-24 md:py-40 bg-bg-elevated/20">
       <Container>
         <div className="text-center mb-12">
           <Eyebrow className="mb-4 justify-center">{t('home.pricing.eyebrow')}</Eyebrow>
