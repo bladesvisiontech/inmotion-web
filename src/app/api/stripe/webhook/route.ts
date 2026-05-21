@@ -2,12 +2,12 @@ import { NextRequest, NextResponse } from 'next/server'
 import Stripe from 'stripe'
 import { Resend } from 'resend'
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY ?? '')
-const resend = new Resend(process.env.RESEND_API_KEY)
-const FROM = process.env.RESEND_FROM_EMAIL ?? 'hello@inmotionteam.com'
-const TO = process.env.RESEND_TO_EMAIL ?? 'bladesvisiontech@gmail.com'
-
 export async function POST(req: NextRequest) {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY ?? '')
+  const resend = new Resend(process.env.RESEND_API_KEY)
+  const FROM = process.env.RESEND_FROM_EMAIL ?? 'hello@inmotionteam.com'
+  const TO = process.env.RESEND_TO_EMAIL ?? 'bladesvisiontech@gmail.com'
+
   const body = await req.text()
   const sig = req.headers.get('stripe-signature') ?? ''
 
@@ -32,7 +32,6 @@ export async function POST(req: NextRequest) {
       `[stripe webhook] checkout.session.completed — ${customerEmail} — $${amount} ${currency}`
     )
 
-    // Notify team
     await resend.emails.send({
       from: FROM,
       to: TO,
@@ -49,7 +48,6 @@ export async function POST(req: NextRequest) {
       `,
     })
 
-    // Confirm to customer
     if (customerEmail) {
       await resend.emails.send({
         from: FROM,

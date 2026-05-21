@@ -10,16 +10,15 @@ const schema = z.object({
   message: z.string().min(10),
 })
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-const FROM = process.env.RESEND_FROM_EMAIL ?? 'hello@inmotionteam.com'
-const TO = process.env.RESEND_TO_EMAIL ?? 'bladesvisiontech@gmail.com'
-
 export async function POST(req: NextRequest) {
+  const FROM = process.env.RESEND_FROM_EMAIL ?? 'hello@inmotionteam.com'
+  const TO = process.env.RESEND_TO_EMAIL ?? 'bladesvisiontech@gmail.com'
+  const resend = new Resend(process.env.RESEND_API_KEY)
+
   try {
     const body = await req.json()
     const data = schema.parse(body)
 
-    // Notify team
     await resend.emails.send({
       from: FROM,
       to: TO,
@@ -34,7 +33,6 @@ export async function POST(req: NextRequest) {
       `,
     })
 
-    // Confirm to lead
     await resend.emails.send({
       from: FROM,
       to: data.email,
