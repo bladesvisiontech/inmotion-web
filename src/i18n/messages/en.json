@@ -3,7 +3,7 @@
     "siteName": "Inmotion",
     "tagline": "Honest websites. Real growth.",
     "homeTitle": "Websites that sell. Delivered in 3 days | Inmotion",
-    "homeDescription": "Digital agency for SMBs. Self-managed websites from $700 USD, real SEO from $500 USD. Fixed price, 3-day delivery, no hidden fees.",
+    "homeDescription": "Digital agency for SMBs. Self-managed websites from $500 USD, real SEO from $500 USD. Fixed price, 3-day delivery, no hidden fees.",
     "servicesTitle": "Digital marketing services | Inmotion",
     "pricingTitle": "Transparent pricing, no fine print | Inmotion",
     "aboutTitle": "About us | Inmotion",
@@ -101,7 +101,7 @@
     "cta": {
       "h2": "Ready to have a website that sells?",
       "sub": "3 days. One-time payment. Zero dependency.",
-      "button": "Buy website for $700 USD →",
+      "button": "Buy website for $500 USD →",
       "secondary": "Or schedule a free consultation"
     }
   },
@@ -114,7 +114,7 @@
     "website": {
       "name": "Self-managed website",
       "pitch": "Your website. Delivered in 3 days. Yours forever.",
-      "price": "700",
+      "price": "500",
       "priceLabel": "USD · one-time payment",
       "hero": {
         "eyebrow": "website",
@@ -122,7 +122,7 @@
         "h1Gradient": "Delivered in 3 days.",
         "h1After": "Yours forever.",
         "sub": "Professional design, self-managed, optimized to convert. One payment, no subscriptions, no dependency.",
-        "ctaBuy": "Buy for $700 USD →",
+        "ctaBuy": "Buy for $500 USD →",
         "ctaContact": "I have questions",
         "trustPayment": "Secure payment via Stripe · Card · No subscriptions"
       },
@@ -170,7 +170,7 @@
       },
       "pricing": {
         "title": "Clear price, no fine print",
-        "price": "$700 USD",
+        "price": "$500 USD",
         "oneTime": "One-time payment",
         "noHidden": "No hidden fees",
         "noSubscription": "No subscriptions",

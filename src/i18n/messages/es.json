@@ -3,7 +3,7 @@
     "siteName": "Inmotion",
     "tagline": "Sitios honestos. Crecimiento real.",
     "homeTitle": "Sitios web que venden. Entregados en 3 días | Inmotion",
-    "homeDescription": "Agencia digital para PYMEs. Sitios autoadministrables desde $700 USD, SEO real desde $500 USD. Precio fijo, entrega en 3 días, sin cobros ocultos.",
+    "homeDescription": "Agencia digital para PYMEs. Sitios autoadministrables desde $500 USD, SEO real desde $500 USD. Precio fijo, entrega en 3 días, sin cobros ocultos.",
     "servicesTitle": "Servicios de marketing digital | Inmotion",
     "pricingTitle": "Precios transparentes sin letra chica | Inmotion",
     "aboutTitle": "Quiénes somos | Inmotion",
@@ -101,7 +101,7 @@
     "cta": {
       "h2": "¿Listo para tener un sitio que venda?",
       "sub": "3 días. Pago único. Cero dependencia.",
-      "button": "Comprar sitio por $700 USD →",
+      "button": "Comprar sitio por $500 USD →",
       "secondary": "O agenda una consulta gratis"
     }
   },
@@ -114,7 +114,7 @@
     "website": {
       "name": "Sitio web autoadministrable",
       "pitch": "Tu sitio. Entregado en 3 días. Tuyo para siempre.",
-      "price": "700",
+      "price": "500",
       "priceLabel": "USD · pago único",
       "hero": {
         "eyebrow": "sitio web",
@@ -122,7 +122,7 @@
         "h1Gradient": "Entregado en 3 días.",
         "h1After": "Tuyo para siempre.",
         "sub": "Diseño profesional, autoadministrable, optimizado para convertir. Un pago, sin mensualidades, sin dependencia.",
-        "ctaBuy": "Comprar por $700 USD →",
+        "ctaBuy": "Comprar por $500 USD →",
         "ctaContact": "Tengo preguntas",
         "trustPayment": "Pago seguro vía Stripe · Tarjeta · Sin suscripciones"
       },
@@ -170,7 +170,7 @@
       },
       "pricing": {
         "title": "Precio claro, sin letra chica",
-        "price": "$700 USD",
+        "price": "$500 USD",
         "oneTime": "Pago único",
         "noHidden": "Sin cobros ocultos",
         "noSubscription": "Sin mensualidades",

@@ -14,7 +14,7 @@ export const SERVICES: Service[] = [
   {
     slug: 'website',
     i18nKey: 'services.website',
-    priceUSD: 700,
+    priceUSD: 500,
     deliveryDays: 3,
     paymentLink: process.env.NEXT_PUBLIC_STRIPE_LINK_WEBSITE ?? null,
     featured: true,
